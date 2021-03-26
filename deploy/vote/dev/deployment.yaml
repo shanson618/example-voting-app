@@ -4,7 +4,7 @@ metadata:
   creationTimestamp: null
   labels:
     app: vote
-    version: v3
+    version: v4
   name: vote
 spec:
   minReadySeconds: 20
@@ -12,5 +12,5 @@ spec:
   template:
     spec:
       containers:
-      - image: schoolofdevops/vote:v3
+      - image: schoolofdevops/vote:v4
         name: vote
