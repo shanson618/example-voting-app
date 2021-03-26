@@ -6,8 +6,6 @@ metadata:
     app: vote
   name: vote
 spec:
-  $setElementOrder/ports:
-  - port: 80
   ports:
   - name: "80"
     port: 80
