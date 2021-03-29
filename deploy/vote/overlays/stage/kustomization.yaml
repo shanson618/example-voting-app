@@ -9,4 +9,4 @@ patchesStrategicMerge:
 - service.yaml
 - namespace.yaml
 
-namesapce: stage
+namespace: stage
