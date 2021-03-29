@@ -4,9 +4,6 @@ kind: Kustomization
 resources:
 - ../../base
 
-namePrefix: stage-
-nameSuffix: "-001"
-
 commonLabels:
   project: instavote
   env: stage
