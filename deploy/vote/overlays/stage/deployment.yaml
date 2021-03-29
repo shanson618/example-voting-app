@@ -13,6 +13,6 @@ spec:
       containers:
       - image: schoolofdevops/vote:v3
         name: vote
-        env:
-          - name: REDIS_SVC
-            value: "$(REDIS_SERVICE)"
+        envFrom:
+          - configMapRef:
+              name: vote
