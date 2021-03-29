@@ -15,4 +15,4 @@ spec:
         name: vote
         envFrom:
           - configMapRef:
-              name: "$(VOTECM)"
+              name: "$(VOTE_CM)"
