@@ -35,3 +35,12 @@ generatorOptions:
   disableNameSuffixHash: true
   labels:
     type: config
+
+vars:
+  - name: REDIS_SVC
+    objref:
+      kind: Service
+      name: redis
+      apiVersion: v1
+    fieldref:
+      fieldpath: metadata.name
