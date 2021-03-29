@@ -37,7 +37,7 @@ generatorOptions:
     type: config
 
 vars:
-  - name: REDIS_SVC
+  - name: REDIS_SERVICE
     objref:
       kind: Service
       name: redis
