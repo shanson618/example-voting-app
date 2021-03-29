@@ -32,7 +32,7 @@ configMapGenerator:
       - OPTION_B=DEV
 
 generatorOptions:
-  disableNameSuffixHash: true
+  disableNameSuffixHash: false
   labels:
     type: config
 
