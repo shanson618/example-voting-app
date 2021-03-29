@@ -5,8 +5,8 @@ resources:
 - ../../base
 
 patchesStrategicMerge:
+- namespace.yaml
 - deployment.yaml
 - service.yaml
-- namespace.yaml
 
 namespace: stage
