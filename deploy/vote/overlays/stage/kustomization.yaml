@@ -31,4 +31,7 @@ vars:
     kind: ConfigMap
     name: vote
     apiVersion: v1
-    
+   
+generatorOptions: 
+  disableNameSuffixHash: true 
+
