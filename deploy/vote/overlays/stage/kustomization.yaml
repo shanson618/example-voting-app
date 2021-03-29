@@ -23,3 +23,9 @@ configMapGenerator:
     literals:
       - OPTION_A=STAGING
       - OPTION_B=DEV
+vars:
+  - name: VOTECM
+    objref:
+      kind: ConfigMap
+      name: vote
+      apiVersion: v1
