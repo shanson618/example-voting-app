@@ -24,14 +24,9 @@ configMapGenerator:
       - OPTION_A=STAGING
       - OPTION_B=DEV
 
-
-vars:
-- name: VOTE_CM
-  objref:
-    kind: ConfigMap
-    name: vote
-    apiVersion: v1
-   
-generatorOptions: 
-  disableNameSuffixHash: true 
-
+generatorOptions:
+  disableNameSuffixHash: true
+  labels:
+    project: instavote
+  annotations:
+    supported-by: "sre@example.com"
