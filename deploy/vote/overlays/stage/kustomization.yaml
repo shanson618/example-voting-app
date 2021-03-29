@@ -23,11 +23,12 @@ configMapGenerator:
     literals:
       - OPTION_A=STAGING
       - OPTION_B=DEV
+
+
 vars:
-  - name: VOTE_CM
-    objref:
-      kind: ConfigMap
-      name: vote
-      apiVersion: v1
-    fieldref:
-      fieldpath: metadata.name
+- name: VOTE_CM
+  objref:
+    kind: ConfigMap
+    name: vote
+    apiVersion: v1
+    
