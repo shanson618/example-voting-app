@@ -42,5 +42,3 @@ vars:
       kind: Service
       name: redis
       apiVersion: v1
-    fieldref:
-      fieldpath: metadata.name
