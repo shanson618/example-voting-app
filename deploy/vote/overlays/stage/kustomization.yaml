@@ -4,6 +4,13 @@ kind: Kustomization
 resources:
 - ../../base
 
+commonLabels:
+  project: instavote
+  org: engg
+
+commonAnnotations:
+  supported-by: "sre@example.com"
+
 patchesStrategicMerge:
 - deployment.yaml
 - service.yaml
@@ -27,6 +34,6 @@ configMapGenerator:
 generatorOptions:
   disableNameSuffixHash: true
   labels:
-    project: instavote
+    role: frontend
   annotations:
-    supported-by: "sre@example.com"
+    supported-by: "dev@example.com"
