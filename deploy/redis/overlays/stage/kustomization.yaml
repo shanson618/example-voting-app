@@ -5,7 +5,7 @@ resources:
 - ../../base
 
 namePrefix: stage-
-nameSuffix: -001
+nameSuffix: "-001"
 
 commonLabels:
   project: instavote
