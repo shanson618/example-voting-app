@@ -3,7 +3,17 @@ entries:
   result:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-03-30T06:22:53.526314406Z"
+    created: "2021-03-30T06:35:49.845996014Z"
+    description: A Helm chart for Kubernetes
+    digest: 2e2cbdd4a85930d2a1131df36c3d5f0a56cb395568c71c01c5669fdbc8bd5911
+    name: result
+    type: application
+    urls:
+    - https://initcron.github.io/example-voting-app/result-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-03-30T06:35:49.845026077Z"
     description: A Helm chart for Kubernetes
     digest: bd2d179e6b6a59d479f7e9e1ac75ab7a8ae36f442c61d61612026d30f3491bb0
     name: result
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://initcron.github.io/example-voting-app/result-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-30T06:22:53.525497273Z"
+generated: "2021-03-30T06:35:49.84341729Z"
