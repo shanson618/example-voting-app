@@ -40,5 +40,5 @@ vars:
   - name: REDIS_SERVICE
     objref:
       kind: Service
-      name: vote
+      name: redis
       apiVersion: v1
