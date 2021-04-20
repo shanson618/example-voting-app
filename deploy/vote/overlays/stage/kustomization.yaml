@@ -19,11 +19,11 @@ namespace: stage
 
 images:
   - name: schoolofdevops/vote
-    newTag: v4
+    newTag: v5
 
 replicas:
   - name: vote
-    count: 4
+    count: 3
 
 configMapGenerator:
   - name: vote
