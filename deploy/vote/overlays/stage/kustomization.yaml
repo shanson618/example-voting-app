@@ -36,9 +36,4 @@ generatorOptions:
   labels:
     type: config
 
-vars:
-  - name: REDIS_SERVICE
-    objref:
-      kind: Service
-      name: redis
-      apiVersion: v1
+
