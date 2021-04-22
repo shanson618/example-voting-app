@@ -19,7 +19,7 @@ namespace: stage
 
 images:
   - name: schoolofdevops/vote
-    newTag: v5
+    newTag: v5   # {"$imagepolicy": "flux-system:vote:tag"}
 
 replicas:
   - name: vote
