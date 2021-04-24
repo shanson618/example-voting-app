@@ -13,7 +13,7 @@ patchesStrategicMerge:
 namespace: stage
 images:
 - name: schoolofdevops/vote
-  newTag: master-1ac33d68-1619243592 # {"$imagepolicy": "flux-system:vote:tag"}
+  newTag: master-4d91f0bd-1619244055 # {"$imagepolicy": "flux-system:vote:tag"}
 replicas:
 - name: vote
   count: 3
